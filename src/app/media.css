@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+  }
+  .header{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+    
+  }
+  .menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background: #b5b8c198;
+    line-height: 40px;
+  }
+  .menu > li{
+    display: inline;
+    margin-right: 15px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .menu-active{
+    color: red;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+  }
+  
+ 
